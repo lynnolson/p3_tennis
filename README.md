@@ -20,7 +20,7 @@ The code is a modified form of the ddpg-pendulum code provided by Udacity in the
 3. Create and activate a new conda environment
 ```
 conda create -n p3_tennis python=3.6
-conda activate p3_tennis
+source activate p3_tennis
 ```
 3. Clone this GitHub repository
 ```
