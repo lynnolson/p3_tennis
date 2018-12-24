@@ -52,7 +52,7 @@ python train.py -tennis_env_path Tennis.app -ckpt_path_prefix checkpoint
 To train on Linux, use
 
 ```
-python train.py -tennis_env_path Tennis_Linux_NoVis/Tennis.x86_64 -ckpt_path_prefix checkpoint
+python train.py -tennis_env_path Tennis_Linux_NoVis/Tennis.x86_64 -n_episodes 2000 -ckpt_path_prefix checkpoint
 ```
 
 To save a plot of the scores over time (successive episodes), set the argument plot_path to a specific file
