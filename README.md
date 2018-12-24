@@ -12,7 +12,7 @@ The goal of each agent is to keep the ball in play.  A reward of 0.1 is given if
 
 The environment is considered solved when the maximum score between the two agents is at least 0.5 averaged over a series of 100 episodes.
 
-The code is a modified form of the ddpg-pendulum code provided by Udacity in their Deep Reinforcement Learning Nanodegree Program and more directly from the same code I used in [Project 2 Continuous Control] (https://github.com/lynnolson/p2_continuous-control)
+The code is a modified form of the ddpg-pendulum code provided by Udacity in their Deep Reinforcement Learning Nanodegree Program and more directly from the same code I used in Project 2, Continuous Control (https://github.com/lynnolson/p2_continuous-control)
 
 ### Getting Started
 1. [Download](https://www.python.org/downloads/) and install Python 3.6 or higher if not already installed.
