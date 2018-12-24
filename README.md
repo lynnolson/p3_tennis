@@ -63,7 +63,7 @@ python train.py -tennis_env_path Tennis.app -ckpt_path_prefix checkpoint -plot_p
 The model weights are saved in two files prefixed by ckpt_path_prefix - one corresponds to actor's network weights and the other to the critic's.  Currently there is no mechanism to recreate the model from these parameters.
 When you are done, deactivate the conda environment:
 ```
-conda deactivate
+source deactivate
 ```
 ### Note
 The whole procedure above has been tested on Ubuntu 16.04 and OS X El Capitan.
